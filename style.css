@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #252a2e;
+    color: white;
+}
+
+.container {
+    min-height: 100vh;
+    padding: 66px 72px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Homework Label */
+
+.label {
+    width: 360px;
+    height: 60px;
+
+    background: #20783a;
+    border-radius: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #75df8b;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* Main Title */
+
+h1 {
+    margin-top: 55px;
+
+    font-family: Georgia, serif;
+    font-size: 46px;
+    line-height: 1.25;
+    font-weight: bold;
+}
+
+/* Checklist */
+
+.checklist {
+    margin-top: 55px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+
+    margin-bottom: 40px;
+}
+
+.check-icon {
+    width: 36px;
+    height: 36px;
+
+    border: 3px solid #ff5138;
+    border-radius: 50%;
+
+    color: #ff5138;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.item p {
+    color: #c7cdd3;
+    font-size: 22px;
+}
+
+/* Next Topic */
+
+.next-topic {
+    position: absolute;
+
+    left: 0;
+    right: 72px;
+    bottom: 156px;
+
+    background: #1b1f22;
+
+    padding: 35px 36px 24px 108px;
+
+    border-radius: 0 10px 10px 0;
+}
+
+.next-topic span {
+    color: #ff5138;
+
+    font-size: 17px;
+    font-weight: bold;
+
+    letter-spacing: 3px;
+}
+
+.next-topic h2 {
+    margin-top: 20px;
+
+    font-family: Georgia, serif;
+
+    font-size: 30px;
+    color: white;
+}
+
+/* Page Number */
+
+.page-number {
+    position: absolute;
+
+    right: 36px;
+    bottom: 32px;
+
+    color: #89939d;
+
+    font-size: 14px;
+}
