@@ -23,14 +23,14 @@ body {
     width: 360px;
     height: 60px;
 
-    background: #20783a;
+    background:red;
     border-radius: 40px;
 
     display: flex;
     align-items: center;
     justify-content: center;
 
-    color: #75df8b;
+    color:gold;
     font-size: 18px;
     font-weight: bold;
     letter-spacing: 2px;
