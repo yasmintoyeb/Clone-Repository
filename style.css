@@ -65,10 +65,10 @@ h1 {
     width: 36px;
     height: 36px;
 
-    border: 3px solid #ff5138;
+    border: 3px solid #e22727;
     border-radius: 50%;
-
-    color: #ff5138;
+    background-color: #fffc38;
+    color: #050404;
 
     display: flex;
     align-items: center;
