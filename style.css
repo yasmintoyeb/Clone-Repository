@@ -15,6 +15,13 @@ body {
     padding: 66px 72px;
     position: relative;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 5px 3px white;
+    width: 600px;
+    height: 200px;
+    padding: 100px;
+    margin: 50px auto;
 }
 
 /* Homework Label */
@@ -60,7 +67,7 @@ h1 {
     border-radius: 12px;
     gap: 44px;
     border: 1px solid white;
-    width: 50%;
+    width: 100%;
     background-color: aliceblue;
     margin-bottom: 40px;
 }
