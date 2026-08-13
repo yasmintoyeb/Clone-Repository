@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #1801ea;
+    color: rgb(230, 218, 218);
+}
+
+.container {
+    min-height: 100vh;
+    padding: 66px 72px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 5px 3px white;
+    width: 600px;
+    height: 200px;
+    padding: 100px;
+    margin: 50px auto;
+}
+
+/* Homework Label */
+
+.label {
+    width: 360px;
+    height: 60px;
+
+    background:red;
+    border-radius: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color:gold;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* Main Title */
+
+h1 {
+    margin-top: 55px;
+
+    font-family: Georgia, serif;
+    font-size: 36px;
+    line-height: 1.25;
+    font-weight: bold;
+}
+
+/* Checklist */
+
+.checklist {
+    margin-top: 55px;
+    
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    gap: 44px;
+    border: 1px solid white;
+    width: 100%;
+    background-color: aliceblue;
+    margin-bottom: 40px;
+}
+
+.check-icon {
+    width: 36px;
+    height: 36px;
+
+    border: 3px solid #e22727;
+    border-radius: 50%;
+    background-color: #fffc38;
+    color: #050404;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.item p {
+    color: black;
+    font-size: 22px;
+}
+
+/* Next Topic */
+
+/* .next-topic {
+    position: absolute;
+
+    left: 0;
+    right: 72px;
+    bottom: 156px;
+
+    background: #1b1f22;
+
+    padding: 35px 36px 24px 108px;
+
+    border-radius: 0 10px 10px 0;
+} */
+
+/* .next-topic span {
+    color: #ff5138;
+
+    font-size: 17px;
+    font-weight: bold;
+
+    letter-spacing: 3px;
+} */
+
+/* .next-topic h2 {
+    margin-top: 20px;
+
+    font-family: Georgia, serif;
+
+    font-size: 30px;
+    color: white;
+} */
+
+/* Page Number */
+
+.page-number {
+    position: absolute;
+
+    right: 36px;
+    bottom: 32px;
+
+    color: #89939d;
+
+    font-size: 14px;
+}
